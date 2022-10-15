@@ -1,0 +1,14 @@
+<body>
+    <div class="section-title">
+        <span class="section-title-text">Contents</span>
+        <span class="section-title-faded">({{ items|length }})</span>
+    </div>
+    <div class="sidebar-items">
+        {% for item in items %}
+        <a href="#!/{{ item.name }}" class="sidebar-item {% if item.deprecated %}deprecated{% endif %}">
+            <span class="sidebar-icon sidebar-icon-{{ item.type }} sprite"></span>
+            <span class="sidebar-item-label">{{ item.name }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</body>

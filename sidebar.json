@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "type": "endpoint",
+            "name": "browse"
+        },
+        {
+            "type": "class",
+            "name": "compactAutoplayRenderer",
+            "deprecated": true
+        },
+        {
+            "type": "class",
+            "name": "desktopTopbarRenderer"
+        },
+        {
+            "type": "class",
+            "name": "formattedString"
+        },
+        {
+            "type": "class",
+            "name": "videoSecondaryInfoRenderer"
+        }
+    ]
+}
